@@ -1,0 +1,35 @@
+{
+  "name": "Basic_Node_project",
+  "version": "0.0.1",
+  "description": "basic node project with gulp",
+  "main": "server.js",
+  "scripts": {
+    "test": "gulp jslint",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n/a"
+  },
+  "keywords": [
+    "node",
+    "gulp",
+    "mocha",
+    "jade"
+  ],
+  "author": "boyofgreen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a",
+  "dependencies": {
+    "express": "^4.12.3",
+    "jade": "^1.9.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.10.0",
+    "mocha": "^2.2.4"
+  }
+}
